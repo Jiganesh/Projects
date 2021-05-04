@@ -1,0 +1,104 @@
+
+body{
+    background-color: gray;
+
+}
+
+main{
+    color: white;
+    height: auto;
+    padding:20px;
+    border-radius: 20px;
+    padding-left: 5%;
+    background-color: rgb(0, 0, 0,0.7);
+
+}
+
+#title{
+    text-align: center;
+    border-radius: 10px;
+    min-width: 20px;
+    color:white;
+}
+
+#description{
+    text-align: center;
+
+}
+
+#personal-detail-text{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+
+#personal-info{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+#personal-info label{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+#personal-info label input{
+    display:block;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding:5px;
+    height: 30px;
+    width :70%;
+}
+
+#dropdown-div{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+select{
+    height:50px;
+    width: 200px;
+}
+
+#radio-div{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+#radio-div label{
+    display :block;
+    margin: 5px;
+    padding:5px;
+}
+
+#checkbox-div{
+    display :block;
+    margin: 5px;
+    padding:5px;
+
+}
+#checkbox-div label{
+    display :block;
+    margin: 5px;
+    padding:5px;
+    
+}
+
+#textarea {
+
+    border-radius: 20px;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+#submit{
+    margin:20px 0px 30px 0px;
+}
+

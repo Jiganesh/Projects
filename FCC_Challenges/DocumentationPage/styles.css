@@ -1,0 +1,126 @@
+:root{
+    --nav-main: 270px;
+    --darker-blue:#3f3697;
+    --blue:#3d84b8;
+    --faint-blue: #b1dfff;
+    --smooth-cream:#f0ebcc;
+}
+
+body{
+    background-color: var(--smooth-cream);
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navbar{
+    position: fixed;
+    width: var(--nav-main);
+    height:100%;
+    border-radius: 20px;
+    background-color: var(--blue);
+}
+
+#navbar header {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px; 
+    border-radius:10px;
+    background-color: var(--darker-blue);
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    height: 400px;
+    justify-content:space-around ;
+    flex-direction: column;
+    
+}
+
+#navbar ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+}
+
+#navbar ul li:hover{
+  background-color:var(--darker-blue);
+  border-radius: 20px;
+}
+
+#navbar ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 900;
+    color:white;
+
+}
+
+
+
+#main-doc{
+
+    position:absolute;
+    margin-left:var(--nav-main);
+    border: 1px solid black;
+}
+
+.main-section{
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:var(--faint-blue);
+    border: 3px solid black;
+}
+
+pre{
+    background-color: var(--smooth-cream);
+    padding: 10px;
+    border-radius: 10px;
+    border : 2px solid black;
+}
+
+.main-section ul{
+    
+    background-color: var(--smooth-cream);
+    width: fit-content;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:15px;
+    border: 2px solid black;
+}
+
+.main-section header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size:1.5rem;
+    font-weight:bolder;
+    background-color: var(--smooth-cream);
+    height: 60px;
+    margin-left:140px;
+    margin-right:140px;
+    border: 3px solid black;
+}
+
+.main-section p{
+    font-size: 1.2rem;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:15px;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar{
+        display:none;
+    }
+    #main-doc{
+        margin-left:0px;
+    }
+}

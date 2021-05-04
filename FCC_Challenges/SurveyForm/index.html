@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Survey Page</title>
+</head>
+
+<body>
+	<main>
+		<h1 id="title">Survey Page</h1>
+		<p id="description">THis is description of this survey Page</p>
+
+		<form id="survey-form">
+
+			<div id="personal-info">
+				<p id="personal-details-text">Personal Details</p>
+				<label id="name-label">Name <input type="text" id="name" placeholder ="Enter your name here" required></label>
+				<label id="email-label">Email <input type="email" id="email" placeholder ="Enter your email here" required></label>
+				<label id="number-label">Passout Year <input type="number" id="number" placeholder ="Enter your Passout Year" min=2021 max=2023 required></label>
+			</div>
+
+			<div id="dropdown-div">
+				<p id="dropdown-text">Department </p>
+				<select name="Department" id="dropdown" type="dropdown">
+					<option value="mechanical-engineer">Mechanical Department</option>
+					<option value="entc-engineer">ENTC Department</option>
+					<option value="electrical-engineer">Electrical Department</option>
+					<option value="computerscience-engineer">CSE Department</option>
+					<option value="aeronautical-engineer">Aeronautical Department</option>
+				</select>
+			</div>
+
+			<div id="radio-div">
+				<p id="radio-text">What area you want to work on ?</p>
+				<label for="software"><input type="radio" name="area" value="software">Software</label>
+				<label for="mechanial"><input type="radio" name="area" value="mechanical">Mechanical</label>
+				<label for="electrical"><input type="radio" name="area" value="electronics">Electrical</label>
+			</div>
+
+			<div id ="checkbox-div">
+				<p> On Which part you want to focus on ?</p>
+				<label for="competitions"><input type="checkbox" name ="p-c" value="competitions">Competitions</label>
+				<label for="project"><input type="checkbox" name ="p-c" value="project">Projects</label>
+			</div>
+
+			<div id="text-area">
+				<p>Write some additional comments here ?</p>
+				<textarea name="comments" id="textarea" placeholder="Enter your comments and thoughts here"></textarea>
+			</div>
+
+			<button type="submit" id="submit">Submit</button>
+
+		</form>
+	</main>
+</body>
+</html>

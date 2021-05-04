@@ -1,0 +1,313 @@
+:root {
+  --dark-brown: #b94a00;
+  --flaming-brown: #ff8303;
+  --black-brown: #1b1a17;
+  --white-brown: #ffdfa3;
+  --nav-main: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--dark-brown);
+  position: fixed;
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+#navbar ul li {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#navbar ul li a:hover {
+  color: var(--white-brown);
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+#main-section {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+section {
+  height: 90vh;
+}
+
+#welcome-section {
+  background-image: url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  word-spacing: 2px;
+  /*height:100vh */
+  /*Uncomment above code to pass all test cases of FCC Portfolio challenge*/
+}
+
+#welcome-section::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  height: 102.2vh;
+}
+
+#intro {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+#brief {
+  font-size: 1.5rem;
+}
+#welcome-section * {
+  z-index: 1;
+  position: relative;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+  background-color: var(--white-brown);
+}
+
+.project-tile {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 300px;
+  height: 280px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ffdfa3;
+}
+.project-tile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.project-tile a:hover {
+  font-size: 1.6rem;
+}
+
+#profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--black-brown);
+}
+
+#contact-header {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+#contact-p {
+  text-align: center;
+  margin: -30px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+#links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#links ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+}
+
+#links ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#links ul li a:hover {
+  position: relative;
+  top: 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#project-1 {
+  background-image: url(Images/tributepage.jpg);
+  background-size: contain;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+
+#project-2 {
+  background-image: url(Images/calculator.png);
+  background-size: contain;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+
+#project-3 {
+  background-image: url(Images/landingpage.png);
+  background-size: contain;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+
+#project-4 {
+  background-image: url(Images/surveyform.png);
+  background-size: contain;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+.project-links {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+  height: 50px;
+  color: white;
+  background-color: var(--flaming-brown);
+}
+
+i {
+  margin-right: 15px;
+}
+
+#profile-link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #intro {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #brief {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1rem;
+    padding: 20px;
+    height: 10px;
+    color: white;
+    background-color: var(--flaming-brown);
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  #links ul li a {
+    font-size: 1rem;
+  }
+
+  #links ul li a:hover {
+    top: 0px;
+    font-size: 1rem;
+  }
+
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 5px;
+  }
+
+  #links ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: -40px;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  #navbar ul li a:hover {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+  }
+}
