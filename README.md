@@ -13,12 +13,12 @@ Optimal path finding robot when given starting point and the endpoint, by the us
 - ### Jigbot:
 Jigbot is a Chatbot Package. The Chatbot is built using Python and Other Rich Libraries.
 
-For additional Info visit : https://pypi.org/project/jigbot/
-
+For additional Info visit : [Jigbot Package](https://pypi.org/project/jigbot/
+)
 - ### Tribute Page
 This a tribute page I have built to complete challenge from freeCodeCamp while learning Responsive Web Design 
 
-To checkout visit : https://jiganesh.github.io/TributePage/
+To checkout visit : [Tribute Page](https://jiganesh.github.io/TributePage/)
 
 - ### Survey Form
 This is a survey form I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
