@@ -46,3 +46,8 @@ This Calculator is based on Django which is open-source framework used for rapid
 About Project : https://github.com/Jiganesh/Calculator
 
 To checkout visit : https://jiganesh-basic-calculator.herokuapp.com/
+
+- ### Try and Trust
+This is a Responsive Website which was designed for a Cafe Try and Trust as their request only to have static website. HTML and CSS is used for structuring and design.
+
+To checkout Visit : https://jiganesh.github.io/TryAndTrust/
