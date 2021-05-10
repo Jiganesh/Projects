@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Itim', cursive;
+    background-color: #fffbf7;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    height: 100vh;
+    
+}
+#image{
+    height :400px;
+    width: auto;
+}
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px 10px 0px ;
+    width: 70%;
+}
+
+#title{
+    font-size : 4rem;
+    font-weight: 400;
+}
+
+#days,#minutes,#hours,#seconds{
+    text-align: center;
+    color: rgb(42,69,136);
+}
+
+@media only screen and (max-width: 600px){
+
+
+    #title{
+        margin-top : -100px;
+        font-size : 2rem;
+        font-weight: 400;
+    }
+
+    #image{
+        height : auto;
+        width:100vw;
+    }
+}
