@@ -2,19 +2,15 @@
 
 Hello, This is Jiganesh. Thank you for Visiting my Project Library. This repository has Local-Version of all my hosted Project. I hope this repository might be able to give quick overview of all the projects I have built and things that I learned in the process.
 
-<hr>
+<hr><br>
 
-- ## WordCounter (Recent)
-This is a WordCounter application where you provide text and the analyser works through it and finds number of words and characters in a paragraph. I learned DOM manipulation and worked more on my CSS flexbox skills
 
-To checkout Visit : [WordCounter Web-Application](https://jiganesh.github.io/WordCounter/)
+- ## CountDown ( Recent )
+CountDown is literally what it says! CountDown is made from only using HTML, CSS and Javascript. It has clean look and no complexity is added. It is very good to be a easy Javascript beginner project.
 
-- ## HearAnime 
-HearAnime is Webpage with Most loved Anime Sounds and Dialogue watched. If you are a anime fan I am sure you would like the webpage. In this project I learned about DOM manupalation by JS and handling sound files
+About Project : [CountDown](https://github.com/Jiganesh/Projects/tree/main/CountDown)
 
-To checkout Visit : [HearAnime Webpage](https://jiganesh.github.io/HearAnime/)
-
-- ## Portfolio 
+- ## Portfolio
 This is a Portfolio I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
 
 To checkout visit : [Portfolio](https://jiganesh.github.io/Portfolio/)
@@ -23,6 +19,16 @@ To checkout visit : [Portfolio](https://jiganesh.github.io/Portfolio/)
 This is a Responsive Website which was designed for a Cafe Try and Trust as their request only to have static website. HTML and CSS is used for structuring and design.
 
 To checkout Visit : [Try and Trust Webpage](https://jiganesh.github.io/TryAndTrust/)
+
+- ## WordCounter 
+This is a WordCounter application where you provide text and the analyser works through it and finds number of words and characters in a paragraph. I learned DOM manipulation and worked more on my CSS flexbox skills
+
+To checkout Visit : [WordCounter Web-Application](https://jiganesh.github.io/WordCounter/)
+
+- ## HearAnime 
+HearAnime is Webpage with Most loved Anime Sounds and Dialogue watched. If you are a anime fan I am sure you would like the webpage. In this project I learned about DOM manupalation by JS and handling sound files
+
+To checkout Visit : [HearAnime Webpage](https://jiganesh.github.io/HearAnime/)
 
 - ## Calculator
 This Calculator is based on Django which is open-source framework used for rapid Web-Development. The Project was built to understand workflow of Application Development and Deployment.
