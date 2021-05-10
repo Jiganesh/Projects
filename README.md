@@ -4,49 +4,62 @@ Hello, This is Jiganesh. Thank you for Visiting my Project Library. This reposit
 
 <hr>
 
-- ### Line Follower :
-Automated Guided Vehicle which follows visual embedded line using IR sensors to detect and follow Path.
+- ## WordCounter (Recent)
+This is a WordCounter application where you provide text and the analyser works through it and finds number of words and characters in a paragraph. I learned DOM manipulation and worked more on my CSS flexbox skills
 
-- ### Route Optimising Robot:
-Optimal path finding robot when given starting point and the endpoint, by the user and reaches the destination avoiding obstacles.
+To checkout Visit : [WordCounter Web-Application](https://jiganesh.github.io/WordCounter/)
 
-- ### Jigbot:
-Jigbot is a Chatbot Package. The Chatbot is built using Python and Other Rich Libraries.
+- ## HearAnime 
+HearAnime is Webpage with Most loved Anime Sounds and Dialogue watched. If you are a anime fan I am sure you would like the webpage. In this project I learned about DOM manupalation by JS and handling sound files
 
-For additional Info visit : [Jigbot Package](https://pypi.org/project/jigbot/)
-- ### Tribute Page
-This a tribute page I have built to complete challenge from freeCodeCamp while learning Responsive Web Design 
+To checkout Visit : [HearAnime Webpage](https://jiganesh.github.io/HearAnime/)
 
-To checkout visit : [Tribute Page](https://jiganesh.github.io/TributePage/)
-
-- ### Survey Form
-This is a survey form I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
-
-To checkout visit : [Survey Form](https://jiganesh.github.io/SurveyForm/)
-
-- ### Product Landing Page
-This is a Product Landing Page I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
-
-To checkout visit : [Product Landing Page](https://jiganesh.github.io/LandingPage/)
-
-- ### Technical Page
-This is a Technical Documentation Page about Programming Languages I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
-
-To checkout visit : [Technical Documentation](https://jiganesh.github.io/DocumentationPage/)
-
-- ### Portfolio 
+- ## Portfolio 
 This is a Portfolio I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
 
 To checkout visit : [Portfolio](https://jiganesh.github.io/Portfolio/)
 
-- ### Calculator
+- ## Try and Trust
+This is a Responsive Website which was designed for a Cafe Try and Trust as their request only to have static website. HTML and CSS is used for structuring and design.
+
+To checkout Visit : [Try and Trust Webpage](https://jiganesh.github.io/TryAndTrust/)
+
+- ## Calculator
 This Calculator is based on Django which is open-source framework used for rapid Web-Development. The Project was built to understand workflow of Application Development and Deployment.
 
 About Project : [Calculator Project Documentation](https://github.com/Jiganesh/Calculator)
 
 To checkout visit : [Calculator Application](https://jiganesh-basic-calculator.herokuapp.com/)
 
-- ### Try and Trust
-This is a Responsive Website which was designed for a Cafe Try and Trust as their request only to have static website. HTML and CSS is used for structuring and design.
 
-To checkout Visit : [Try and Trust Webpage](https://jiganesh.github.io/TryAndTrust/)
+- ## Product Landing Page
+This is a Product Landing Page I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
+
+To checkout visit : [Product Landing Page](https://jiganesh.github.io/LandingPage/)
+
+- ## Survey Form
+This is a survey form I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
+
+To checkout visit : [Survey Form](https://jiganesh.github.io/SurveyForm/)
+
+
+- ## Technical Page
+This is a Technical Documentation Page about Programming Languages I have built to complete challenge from freeCodeCamp while learning Responsive Web Design.
+
+To checkout visit : [Technical Documentation](https://jiganesh.github.io/DocumentationPage/)
+
+- ## Tribute Page
+This a tribute page I have built to complete challenge from freeCodeCamp while learning Responsive Web Design 
+
+To checkout visit : [Tribute Page](https://jiganesh.github.io/TributePage/)
+
+- ## Jigbot:
+Jigbot is a Chatbot Package. The Chatbot is built using Python and Other Rich Libraries.
+
+For additional Info visit : [Jigbot Package](https://pypi.org/project/jigbot/)
+
+- ## Route Optimising Robot:
+Optimal path finding robot when given starting point and the endpoint, by the user and reaches the destination avoiding obstacles.
+
+- ## Line Follower :
+Automated Guided Vehicle which follows visual embedded line using IR sensors to detect and follow Path.
