@@ -4,8 +4,14 @@ Hello, This is Jiganesh. Thank you for Visiting my Project Library. This reposit
 
 <hr><br>
 
+- ## ToDoList (Recent)
+TodoList is built using Django. Implemented "add-items" and "delete-items" feature. I kept design very simple and plain focusing more on the logic part and workings of Django. Building todolist was superfun and I use it everyday.
 
-- ## CountDown ( Recent )
+About Project: [ToDo Documentation](https://github.com/Jiganesh/ToDo)
+
+To checkout visit : [ToDo Application](https://jiganesh-todolist.herokuapp.com/) 
+
+- ## CountDown 
 CountDown is literally what it says! CountDown is made from only using HTML, CSS and Javascript. It has clean look and no complexity is added. It is very good to be a easy Javascript beginner project.
 
 About Project : [CountDown](https://github.com/Jiganesh/Projects/tree/main/CountDown)
