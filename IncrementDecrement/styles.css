@@ -51,6 +51,8 @@ button{
     width: 200px;
     border-radius: 50px;
     border: 1px solid purple;
+
+    font-size:1.5rem;
 }
 
 .left{

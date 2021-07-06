@@ -24,3 +24,12 @@ function fractionIncrement(){
 
 }
 
+function fractionDecrement(){
+    let fraction = document.getElementById("fraction").innerHTML;
+    if(fraction.length<4 && parseInt(fraction)>0 ) {
+        document.getElementById("fraction").innerHTML= parseInt(fraction)-1;
+    }else{
+        document.getElementById("fraction").innerHTML=9
+    }
+
+}
