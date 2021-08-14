@@ -37,6 +37,9 @@ body{
     height: 7vh;
     max-width: 130px;
     width: 30vw;
+
+    font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
     
     border: 1px solid black;
     border-radius: 3px;
