@@ -5,9 +5,10 @@ function generateColor(){
     for (var i = 0; i < 6; i++) {
         generatedColor += HEXVALUES[Math.floor(Math.random() * 16)];
     }
-    var colorHexCode = document.getElementById("colorCode")
+    var colorHexCode = document.getElementById("colorCode");
+    //colorHexCode is a Text that displays the generated color Hex value
     colorHexCode.innerHTML = generatedColor;
-    colorHexCode.style.color = generatedColor;
+    generateButton = document.getElementById("generate");
+    generateButton.style.color = generatedColor;
     document.body.style.backgroundColor = generatedColor;
-
 }
