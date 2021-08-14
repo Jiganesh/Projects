@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 15vh;
+    width:  50vw;
+
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#container div {
+    margin: 10px;
+}
+
+#generate{
+    margin: 40px;
+    height: 7vh;
+    max-width: 130px;
+    width: 30vw;
+    
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+footer{
+    font-size: 1rem;
+}
+
+/* Mobile View*/
+@media (max-width: 800px) {
+
+    #container {
+        flex-direction: column;
+        height: 20vh;
+        font-size: 1rem;
+    }
+}
+
