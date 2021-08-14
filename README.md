@@ -11,6 +11,11 @@ About Project: [ToDo Documentation](https://github.com/Jiganesh/ToDo)
 
 To checkout visit : [ToDo Application](https://jiganesh-todolist.herokuapp.com/) 
 
+- ## Mini_Javascript_Projects
+Building some Javascript Projects to refine and get better with JavaScript. The Folder Consist of all the Mini Projects Code and its Working 
+
+Projects : [Checkout MiniProjects Here](https://github.com/Jiganesh/Projects/tree/main/Mini_Javascript_Projects/)
+
 - ## CountDown 
 CountDown is literally what it says! CountDown is made from only using HTML, CSS and Javascript. It has clean look and no complexity is added. It is very good to be a easy Javascript beginner project.
 
